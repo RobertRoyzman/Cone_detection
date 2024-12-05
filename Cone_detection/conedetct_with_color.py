@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Load the YOLO model
-model = YOLO('best_150.pt')  # Replace with the path to your trained model
+model = YOLO('best_150.pt')  # Replace with trained YOVOv8.pt file
 
 # Input and output video paths
 input_video_path = "fsd1.mp4"  # Input video
@@ -31,7 +31,7 @@ def detect_dominant_color(roi):
         "Orange": ((5, 100, 100), (15, 255, 255)),  # Hue range for orange
         "Yellow": ((20, 100, 100), (30, 255, 255)), # Hue range for yellow
         "Blue": ((100, 150, 0), (140, 255, 255)),   # Hue range for blue
-        "Green": ((35, 50, 50), (85, 255, 255)), #Hue r
+        "Green": ((35, 50, 50), (85, 255, 255)), #Hue range for green
     }
 
     # Count pixels within each color range
