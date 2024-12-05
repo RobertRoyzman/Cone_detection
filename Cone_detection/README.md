@@ -15,4 +15,7 @@ input_video_path = "input_video_here"  # Input video
 output_video_path = "output_video_here"  # Output video
 
 recommended input file can be found in the BGRacing Autonomous team home assignment.
-
+link:
+https://drive.google.com/file/d/1mPswCJpKfnUJ0KlnBs4YYcV1lQlT607J/view
+link for output video:
+https://youtu.be/iLDprvn9Omo
