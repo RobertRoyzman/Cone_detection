@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Load the YOLO model
-model = YOLO('best_150.pt')  # Replace with trained YOVOv8.pt file
+model = YOLO('best_150.pt')  # Replace with trained YOVOv8.pt file path
 
 # Input and output video paths
 input_video_path = "fsd1.mp4"  # Input video
